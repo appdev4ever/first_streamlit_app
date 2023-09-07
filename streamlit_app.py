@@ -41,12 +41,8 @@ try:
     back_from_function = get_fruityvice_data(fruit_choice)
     streamlit.dataframe(back_from_function)
     
-# streamlit.write('The user entered ', fruit_choice)
-# import requests
-# take the json version of the response and normalize it
-# output screen as a table
-
-#streamlit.header("The fruit load list contains:")
+# Header
+streamlit.header("The fruit load list contains:")
 # Snowflake-related functions
 #def get_fruit_load_list():
 #   with my_cnx.cursor() as my_cur:
